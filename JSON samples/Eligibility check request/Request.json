@@ -1,0 +1,23 @@
+{
+    "ClientID": "ffdd8a44-be31-4185-b226-4ad15f0c6c8f",
+    "PatientData": {
+        "PatientNationalID": "1234567890",
+        "PatientID": "9876543210",
+        "PatientGender": "Male",
+        "PatientFirstName": "John",
+        "PatientParentName": "Michael",
+        "PatientMiddleName": "A.",
+        "PatientLastName": "Doe",
+        "PatientMobileNumber": "5551234567",
+        "PatientBirthDate": "1990-01-01",
+        "PatientMaritalStatus": "Single",
+        "PatientJob": "Engineer",
+        "IsChild": "false"
+    },
+    "BranchId": "001",
+    "BranchName": "Main Branch",
+    "TPAInsuranceCompanyCode": "123456",
+    "InsuranceCompanyCode": "654321",
+    "InsuranceCompanyName": "Global Insurance",
+    "CCHINo": "CH123456789"
+}

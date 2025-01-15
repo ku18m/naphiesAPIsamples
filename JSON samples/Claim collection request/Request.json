@@ -1,0 +1,83 @@
+{
+    "ClientId": "164241ab-7b92-42b3-9320-f8bc0b2b6d59",
+    "PatientData": {
+        "PatientNationalID": "NID123456789",
+        "PatientID": "PID987654321",
+        "PatientGender": "M",
+        "PatientFirstName": "John",
+        "PatientParentName": "Doe",
+        "PatientMiddleName": "Middle",
+        "PatientLastName": "Smith",
+        "PatientMobileNumber": "0123456789",
+        "PatientBirthDate": "1985-05-15T00:00:00",
+        "PatientMaritalStatus": "Single",
+        "PatientJob": "Engineer",
+        "IsChild": false,
+        "PatientHistory": "Patient has a history of hypertension.",
+        "InsuranceCardNumber": "ICN123456789",
+        "PatientSignificantSigns": "Signs of respiratory distress.",
+        "Diagnoses": [
+            {
+                "ICDCode": "I10"
+            }
+        ],
+        "VitalSigns": {
+            "BloodPressureMin": "80",
+            "BloodPressureMax": "120",
+            "Height": "170",
+            "Weight": "70",
+            "Pulse": "72",
+            "Temperature": "36.5",
+            "OxygenSaturation": "98",
+            "RespiratoryRate": "16"
+        },
+        "PolicyName": "policyName",
+        "PolicyNumber": "1589456"
+    },
+    "BillNo": "BILL12345",
+    "BillDate": "2023-06-30T11:05:48",
+    "ClaimStatus": "Approved",
+    "IsDental": false,
+    "InsuranceCompanyCode": "123456789",
+    "TPAInsuranceCompanyCode": "987654321",
+    "InsuranceCompanyName": "Global Health Insurance",
+    "ApprovalNo": "APPROVAL123456",
+    "ApprovalDateTime": "2023-06-30T11:05:48",
+    "IsRelatedClaim": true,
+    "RelatedClaimId": "RC123456789",
+    "ClaimRequestId": "CR123456789",
+    "ClaimBundleId": "CB123456789",
+    "ClaimMessageHeaderId": "CMH123456789",
+    "BranchId": "101",
+    "ClaimNo": "CLAIM98765",
+    "DoctorCode": "DOC12345",
+    "DoctorMOHNo": "MOH67890",
+    "DoctorName": "Dr. Jane Doe",
+    "DoctorSpeciality": "Cardiology",
+    "ClinicCode": "CL001",
+    "BranchName": "Texa",
+    "VisitPolicyName": "policyName",
+    "ClaimItems": [
+        {
+            "ServiceAmount": "200.00",
+            "ComVatSer": "15.00",
+            "ValueAddedTax": "10.00",
+            "CompTax": "5.00",
+            "NetAmount": "180.00",
+            "DiscountAmount": "10.00",
+            "GrossAmount": "210.00",
+            "Deduction": "5.00",
+            "PatientShare": "15.00",
+            "Quantity": "2",
+            "CodeHyphanated": "CH12345",
+            "ChapterName": "General Services",
+            "ServiceCode": "SC12345",
+            "ServiceName": "Consultation",
+            "ServiceNphiesName": "Nphies Consultation Service",
+            "BodySiteCode": "BS001",
+            "ServiceTypeCode": "99",
+            "ServiceNphiesCode": "105"
+        }
+    ],
+    "Attachment": null
+}

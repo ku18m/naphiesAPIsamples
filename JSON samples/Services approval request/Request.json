@@ -1,0 +1,88 @@
+{
+    "ClientID": "631601fd-3516-4113-b778-1d3d9d7a5d93",
+    "PatientData": {
+        "PatientNationalID": "123456789",
+        "PatientID": "P1234",
+        "PatientGender": "Male",
+        "PatientFirstName": "John",
+        "PatientParentName": "Mr. Doe",
+        "PatientMiddleName": "A.",
+        "PatientLastName": "Smith",
+        "PatientMobileNumber": "1234567890",
+        "PatientBirthDate": "1990-01-01",
+        "PatientMaritalStatus": "Single",
+        "PatientJob": "Developer",
+        "IsChild": "false",
+        "patientVitalSigns": {
+            "BloodPressureMin": "70",
+            "BloodPressureMax": "120",
+            "Height": "175",
+            "Weight": "70",
+            "Pulse": "72",
+            "Temperature": "36.6",
+            "OxygenSaturation": "98",
+            "RespiratoryRate": "16"
+        },
+        "PatientHistory": "No significant history",
+        "PatientSignificantSigns": "None",
+        "LengthOfStay": "5",
+        "TreatmentPlan": "Follow-up",
+        "PhysicalExamination": "Normal",
+        "HistoryOfPresentIllness": "Cough",
+        "InsuranceCard": "INS-12345",
+        "Diagnoses": [
+            {
+                "ICDCode": "J00"
+            }
+        ],
+        "IsPregnant": "false",
+        "InsClassCode": "A1",
+        "InsClassName": "Class A",
+        "Encounter": {
+            "VisitDate": "2023-10-01",
+            "IsDental": "false",
+            "IsConsultation": "true"
+        },
+        "PolicyName": "12332456456",
+        "PolicyNumber": "122344645"
+    },
+    "BranchId": "branch-123",
+    "BranchName": "Main Branch",
+    "ReqPreStatus": "Pending",
+    "InsuranceCompanyCode": "123456",
+    "InsuranceCompanyName": "Health Insurance Co.",
+    "DoctorCode": "DOC123",
+    "DoctorName": "Dr. Smith",
+    "ClinicCode": "CLINIC123",
+    "MOHNo": "MOH-456",
+    "Attachments": "@/path/to/file",
+    "RelatedAuthId": "AUTH123",
+    "Services": [
+        {
+            "Name": "Service 1",
+            "SpecialName": "Special 1",
+            "NaphiesName": "Naphies Service 1",
+            "ServiceNaphiesCode": "SN001",
+            "ServiceSpecialCode": "SS001",
+            "ServiceTypeCode": "ST001",
+            "ChapterName": "Chapter 1",
+            "BodySiteCode": "Body Site 1",
+            "Amount": "100.50",
+            "Quantity": "1",
+            "PBMDuration": "30"
+        },
+        {
+            "Name": "Service 2",
+            "SpecialName": "Special 2",
+            "NaphiesName": "Naphies Service 2",
+            "ServiceNaphiesCode": "SN002",
+            "ServiceSpecialCode": "SS002",
+            "ServiceTypeCode": "ST002",
+            "ChapterName": "Chapter 2",
+            "BodySiteCode": "Body Site 2",
+            "Amount": "200.75",
+            "Quantity": "2",
+            "PBMDuration": "45"
+        }
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "ClientId": "a8d45943-f996-48ab-b61d-88678037e85e",
+    "ClaimId": "CLAIM12345",
+    "PatientId": "PATIENT123",
+    "PatientInsuranceId": "INS12345",
+    "BranchId": "BRANCH001",
+    "BranchName": "MainBranch",
+    "TPAInsuranceCompanyCode": "9876543210",
+    "InsuranceCompanyCode": "1234567890",
+    "InsuranceCompanyName": "SampleInsurance"
+}

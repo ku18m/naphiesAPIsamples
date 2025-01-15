@@ -1,0 +1,55 @@
+{
+    "ClientID": "631601fd-3516-4113-b778-1d3d9d7a5d93",
+    "PatientData": {
+        "PatientNationalID": "987654321",
+        "PatientID": "patient-001",
+        "PatientGender": "Male",
+        "PatientFirstName": "John",
+        "PatientParentName": "Jane",
+        "PatientMiddleName": "Edward",
+        "PatientLastName": "Doe",
+        "PatientMobileNumber": "5551234567",
+        "PatientBirthDate": "1985-05-15",
+        "PatientMaritalStatus": "Single",
+        "PatientJob": "Engineer",
+        "IsChild": false,
+        "IsPregnant": false,
+        "PatientHistory": "No known allergies",
+        "TreatmentPlan": "Regular check-ups",
+        "PhysicalExamination": "Normal",
+        "InsuranceCard": "INS-123456",
+        "PolicyName": "Health Plan A",
+        "PolicyNumber": "POL-789012",
+        "Diagnoses": [
+            {
+                "ICDCode": "J45.909"
+            }
+        ]
+    },
+    "BranchId": "branch-001",
+    "BranchName": "Main Branch",
+    "CCHINo": "CCHI-12345",
+    "ReqPreStatus": "Pending",
+    "InsuranceCompanyCode": "1001",
+    "InsuranceCompanyName": "Best Health Insurance",
+    "ClinicCode": "CLN-123",
+    "Attachments": null,
+    "InsStartDate": "2024-01-01T00:00:00Z",
+    "InsExpireDate": "2025-01-01T00:00:00Z",
+    "RelatedAuthId": "null",
+    "MedicineItems": [
+        {
+            "Name": "Paracetamol",
+            "SpecialName": "Paracetamol Extra",
+            "NaphiesName": "Paracetamol Naphies",
+            "ServiceNaphiesCode": "SRV-001",
+            "ServiceSpecialCode": "SSP-001",
+            "ServiceTypeCode": "99",
+            "ChapterName": "Pain Relief",
+            "BodySiteCode": "BSC-001",
+            "Amount": "50.00",
+            "Quantity": "2",
+            "PBMDuration": "30"
+        }
+    ]
+}

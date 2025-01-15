@@ -1,0 +1,12 @@
+{
+    "ClientId": "a8d45943-f996-48ab-b61d-88678037e85e",
+    "ClaimId": "CLM12345",
+    "RequestType": "claim",
+    "PatientId": "PAT56789",
+    "PatientInsuranceId": "INS12345",
+    "BranchId": "101",
+    "BranchName": "MainBranch",
+    "TPAInsuranceCompanyCode": "202",
+    "InsuranceCompanyCode": "303",
+    "InsuranceCompanyName": "ABC Insurance"
+}

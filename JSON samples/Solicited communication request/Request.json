@@ -1,0 +1,27 @@
+{
+    "ClientId": "ffdd8a44-be31-4185-b226-4ad15f0c6c8f",
+    "CommunicationMessage": "Sample communication message",
+    "ClaimId": "CLAIM12345",
+    "BranchId": "12345",
+    "BranchName": "Main Branch",
+    "InsuranceCompanyCode": "987654",
+    "TPAInsuranceCompanyCode": "123456",
+    "InsuranceCompanyName": "Sample Insurance Co.",
+    "Attachment": null,
+    "PatientData": {
+        "InsuranceID": "456789",
+        "PatientNationalID": "1234567890",
+        "PatientID": "PATIENT123",
+        "PatientGender": "Male",
+        "PatientFirstName": "John",
+        "PatientParentName": "Michael",
+        "PatientMiddleName": "David",
+        "PatientLastName": "Smith",
+        "PatientMobileNumber": "1234567890",
+        "PatientBirthDate": "1990-01-01",
+        "PatientMaritalStatus": "Single",
+        "PatientJob": "Engineer",
+        "IsChild": false
+    },
+    "CommunicationResponseId": "15456879851313"
+}

@@ -1,0 +1,58 @@
+{
+    "ClientId": "2d34c74e-bbfa-457f-aa98-3e8f1b0fa1fb",
+    "IsRelatedReferal": true,
+    "RelatedAuthorizedId": "related-authorized-id",
+    "BranchId": "branch-id",
+    "BranchName": "branch-name",
+    "InsuranceCompanyCode": "123456",
+    "InsuranceCompanyName": "insurance-company-name",
+    "TPAInsuranceCompanyCode": "654321",
+    "ClinicCode": "clinic-code",
+    "PolicyNumber": "policy-number",
+    "PolicyName": "policy-name",
+    "AttachmentFile": null,
+    "MedicineItems": [
+        {
+            "Name": "medicine-name-1",
+            "SpecialName": "medicine-special-name-1",
+            "NaphiesName": "medicine-naphies-name-1",
+            "ServiceNaphiesCode": "service-naphies-code-1",
+            "ServiceSpecialCode": "service-special-code-1",
+            "ServiceTypeCode": "service-type-code-1",
+            "ChapterName": "chapter-name-1",
+            "BodySiteCode": "body-site-code-1",
+            "Amount": "100.50",
+            "Quantity": "2",
+            "PBMDuration": "30",
+            "DaysSupply": "7"
+        }
+    ],
+    "PatientData": {
+        "PatientNationalID": "patient-national-id",
+        "PatientID": "patient-id",
+        "PatientGender": "M",
+        "PatientFirstName": "John",
+        "PatientParentName": "Michael",
+        "PatientMiddleName": "David",
+        "PatientLastName": "Doe",
+        "PatientMobileNumber": "+1234567890",
+        "PatientBirthDate": "1990-01-01",
+        "PatientMaritalStatus": "Single",
+        "PatientJob": "Engineer",
+        "IsChild": false,
+        "InsuranceCardNumber": "insurance-card-number",
+        "InsStartDate": "2023-01-01",
+        "InsExpireDate": "2024-01-01",
+        "TreatmentPlan": "Sample Treatment Plan",
+        "PhysicalExamination": "Sample Physical Examination",
+        "HistoryOfPresentIllness": "Sample History of Present Illness",
+        "PatientHistory": "Sample Patient History",
+        "IsPregnant": false,
+        "Diagnoses": [
+            {
+                "ICDCode": "icd-code-1",
+                "ICDDescription": "icd-description-1"
+            }
+        ]
+    }
+}

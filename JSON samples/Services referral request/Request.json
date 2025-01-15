@@ -1,0 +1,88 @@
+{
+    "ClientID": "7a9df982-2d9e-4313-ae9d-f207f7e399c7",
+    "IsRelatedReferal": true,
+    "RelatedAuthorizedId": "REL_AUTH_ID_123",
+    "BranchId": "BRANCH_001",
+    "BranchName": "MainBranch",
+    "InsuranceCompanyCode": "123456",
+    "InsuranceCompanyName": "Insurance Co. Ltd.",
+    "TPAInsuranceCompanyCode": "789101",
+    "DoctorCode": "DOC123",
+    "DoctorMOHNo": "MOH456",
+    "DoctorName": "Dr. John Doe",
+    "DoctorSpecialityCode": "SPEC001",
+    "DoctorSpecialityDescription": "Cardiology",
+    "ClinicCode": "CLINIC001",
+    "ReferalPurposeOfReference": "Medical Consultation",
+    "AttachmentFile": null,
+    "PatientData": {
+        "PatientVitalSigns": {
+            "BloodPressureMin": "80",
+            "BloodPressureMax": "120",
+            "Height": "170",
+            "Weight": "70",
+            "Pulse": "72",
+            "Temperature": "36.5",
+            "OxygenSaturation": "98",
+            "RespiratoryRate": "16"
+        },
+        "PatientHistory": "No prior significant medical history",
+        "PatientSignificantSigns": "None",
+        "LengthOfStay": "2",
+        "TreatmentPlan": "Rest and medication",
+        "PhysicalExamination": "Normal",
+        "HistoryOfPresentIllness": "Occasional headaches",
+        "InsuranceCard": "INS1234567890",
+        "Diagnoses": [
+            {
+                "ICDCode": "A123"
+            },
+            {
+                "ICDCode": "B456"
+            }
+        ],
+        "PatientID": "123456789",
+        "PatientGender": "Male",
+        "PatientLastName": "Osman",
+        "PatientFirstName": "Adel",
+        "PatientMiddleName": "Rami",
+        "PatientNationalID": "3000000000",
+        "PatientParentName": "Ali",
+        "PatientMobileNumber": "010101010101",
+        "PatientBirthDate": "1991-01-01",
+        "ClassCode": "0123",
+        "ClassName": "Class Re",
+        "PolicyName": "Policy asdas",
+        "PolicyNumber": "12-34-56"
+    },
+    "Services": [
+        {
+            "ServiceCode": "SRV001",
+            "Name": "Blood Test",
+            "SpecialName": "Complete Blood Count",
+            "NaphiesName": "NAPH-BLOOD",
+            "ServiceNaphiesCode": "N001",
+            "ServiceSpecialCode": "S001",
+            "ServiceTypeCode": "T001",
+            "ChapterName": "Pathology",
+            "BodySiteCode": "RightArm",
+            "Amount": "150.00",
+            "Quantity": "1",
+            "PBMDuration": "30"
+        },
+        {
+            "ServiceCode": "SRV002",
+            "Name": "X-Ray",
+            "SpecialName": "Chest X-Ray",
+            "NaphiesName": "NAPH-XRAY",
+            "ServiceNaphiesCode": "N002",
+            "ServiceSpecialCode": "S002",
+            "ServiceTypeCode": "T002",
+            "ChapterName": "Radiology",
+            "BodySiteCode": "Chest",
+            "Amount": "200.00",
+            "Quantity": "1",
+            "PBMDuration": "15"
+        }
+    ]
+}
