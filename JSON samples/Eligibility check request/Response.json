@@ -1,4 +1,31 @@
 {
-    "IsEligible": true,
-    "ErrorMessage": "Naphies response error message if exists"
+  "IsEligible": true,
+  "EligibilityResult_MSG": "Member is eligible",
+  "ErrorMessage": null,
+  "InsuranceCardNo": "123456789012",
+  "Eligible_ID_TBA": "TBA-987654321",
+  "AllowedMoney": "1500.00",
+  "DentalCoverage": "Covered",
+  "VisionCoverage": "Not Covered",
+  "PolicyHolder": "John Doe",
+  "Benefits": [
+    {
+      "Description": "General Consultation",
+      "Benefit": "OPD",
+      "Value": 300.00,
+      "Currency": "SAR"
+    },
+    {
+      "Description": "Dental Treatment",
+      "Benefit": "Dental",
+      "Value": 1000.00,
+      "Currency": "SAR"
+    },
+    {
+      "Description": "Vision Checkup",
+      "Benefit": "Vision",
+      "Value": 200.00,
+      "Currency": "SAR"
+    }
+  ]
 }
