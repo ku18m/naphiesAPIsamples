@@ -76,7 +76,14 @@
             "ServiceNphiesName": "Nphies Consultation Service",
             "BodySiteCode": "BS001",
             "ServiceTypeCode": "99",
-            "ServiceNphiesCode": "105"
+            "ServiceNphiesCode": "105",
+            "LOINCCode": "1111-11",
+            "LabTestResults": [
+                {
+                    "LabTestResult": "15",
+                    "LabTestUnit": "%"
+                }
+            ]
         }
     ],
     "Attachment": null
