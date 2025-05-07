@@ -1,9 +1,23 @@
 {
-    "statusMessage": null,
-    "preAuthRef": null,
-    "outCome": null,
-    "authorizatoinStatus": 0,
-    "authorizedId": null,
-    "naphiesMessage": null,
-    "errorMessage": null
+  "StatusMessage": "Authorization completed successfully.",
+  "PreAuthRef": "PA123456789",
+  "PreAuthPeriodStart": "2025-05-01",
+  "PreAuthPeriodEnd": "2025-05-15",
+  "ErrorMessage": "",
+  "ItemDetails": [
+    {
+      "ApprovedAmount": 150.00,
+      "ApprovedQuantity": 1.0,
+      "ItemSequence": 1,
+      "ItemStatusMessage": "Approved",
+      "RejectionReason": ""
+    },
+    {
+      "ApprovedAmount": 0.00,
+      "ApprovedQuantity": 0.0,
+      "ItemSequence": 2,
+      "ItemStatusMessage": "Rejected",
+      "RejectionReason": "Item not covered"
+    }
+  ]
 }
